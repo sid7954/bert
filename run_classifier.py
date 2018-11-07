@@ -121,6 +121,7 @@ flags.DEFINE_integer(
     "num_tpu_cores", 8,
     "Only used if `use_tpu` is True. Total number of TPU cores to use.")
 
+#Support right now only for 4 NLP tasks (MNLI, MRPC, COLA and XNLI)
 
 class InputExample(object):
   """A single training/test example for simple sequence classification."""
